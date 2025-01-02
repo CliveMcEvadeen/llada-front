@@ -1,0 +1,39 @@
+.topBar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(26, 26, 25);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  transition: background-color 0.3s ease;
+}
+
+.app.dark .topBar {
+  background-color: #1a1a1a;
+}
+
+.darkModeToggle {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.darkModeToggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.darkModeToggle svg {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  transition: fill 0.3s ease;
+}
+
+.app.dark .darkModeToggle svg {
+  fill: #ffdb3b;
+}

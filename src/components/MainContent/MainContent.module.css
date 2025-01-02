@@ -1,0 +1,7 @@
+.content {
+  display: flex;
+  margin-left: 4.16%;
+  padding-top: 30px;
+  gap: 10px;
+  height: calc(100vh - 30px);
+}
